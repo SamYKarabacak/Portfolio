@@ -1,29 +1,27 @@
 # Exact identifier extraction and source selection
 
-Independent research into whether a language model selects the correct record and preserves its identifier exactly.
+A study of whether a language model can select the correct record and preserve its identifier exactly.
 
-**Status:** Manuscript in preparation. A current-model extension is prepared but has not generated new model responses.
+**Manuscript in preparation**
 
-## Research question
+## The problem
 
-When several plausible fields appear in a synthetic record, can a model follow the source-selection rule and return the exact required identifier? Evaluation distinguishes correct extraction from choosing the wrong source, changing the value, or returning invalid JSON.
+A record can contain several plausible identifiers: some belong to older entries, some to ineligible sources, and some to the requested source. The study separates choosing the right source from copying its value accurately.
 
-## Reproducibility work
+Outputs are scored for exact success, wrong-source selection, changed values, and invalid JSON.
 
-- Frozen synthetic development, main, and repeat datasets.
-- Paired cases with controlled changes to the available record context.
-- Archived local-model runs and deterministic parser baselines.
-- Explicit prompts, response records, exact-match scoring, and analysis code.
-- Content hashes and offline checks for the preserved data and prepared requests.
+## Reproducible evaluation
 
-The extension preparation contains **192 main inputs from 96 paired cases**, plus separate development and repeat inputs. Its private source checkpoint passed the offline package verifier again on 3 November 2026, including replay of archived runs and request-integrity checks.
+The working project contains frozen synthetic datasets, paired cases, explicit prompts, archived local-model responses, deterministic parser baselines, and scoring and analysis code.
 
-## Current limits
+The planned extension reuses 96 paired cases, giving 192 main inputs per model, with separate development and repeat inputs. Content hashes and an offline verifier check the archived data, request construction, and replayed scores.
 
-Historical runs describe their recorded compact-model configurations. They are not evidence about current public flagship models. The new provider-model roster and execution settings still require a freeze, actual access checks, and genuine response collection.
+## Next experiments
 
-Independent semantic review, author approval, and manuscript submission remain outstanding. No peer-reviewed publication or current-model result is claimed.
+The current-model extension is prepared, but new model responses have not been collected. Model access, execution settings, and the final protocol need to be checked and frozen before those runs.
 
-The working dataset, scoring code, archived responses, and extension protocol are maintained privately while the study is in preparation.
+Historical compact-model results describe their recorded configurations. They do not establish the performance of newer hosted models. Independent semantic review and author approval are still pending, and the manuscript has not been submitted.
 
-[Back to portfolio](../README.md)
+The working files remain private while the study is being prepared.
+
+[Portfolio](../README.md)

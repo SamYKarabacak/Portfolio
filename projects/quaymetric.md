@@ -1,35 +1,29 @@
 # Quaymetric Desktop
 
-**Offline finance, cash planning, and pricing for independent businesses.**
+Offline finance, cash planning, and pricing for independent businesses. Quaymetric brings transactions, invoices, budgets, and forecasts into one local Windows workspace.
 
-A standalone Windows application that brings transactions, invoices, budgets, forecasts, cash plans, and pricing into one local workspace.
+**1.0.0 · Windows 10 / 11, x64 · Independent personal project**
 
-**Checkpoint:** 1.0.0 · **Platform:** Windows 10 / 11, x64 · **Project:** Independent personal software.
+## Working with records
 
-## Capabilities
+Record income, expenses, refunds, and invoice payments. Review outstanding invoice balances, compare budgets, and retain plans and opening balances by year.
 
-- Record income, expenses, refunds, and invoice payments.
-- Review invoice balances and date-based cutoffs.
-- Compare budgets and retain plans and opening balances by year.
-- Build cash plans and forecasts with explicit handling of missing inputs.
-- Explore break-even and pricing calculations.
-- Import and export CSV; save and restore local JSON backups.
-- Use separate Demo and working records.
+Cash plans and forecasts distinguish missing inputs from zero. The pricing tools calculate break-even points and suggested prices. CSV import/export and JSON backups make records portable; Demo data stays separate from working records.
 
-Customers do not need Excel, Python, Node.js, an account, or an internet connection.
+The desktop executable includes its runtime, so customers do not need Excel, Python, or Node.js.
 
-## Engineering
+## Calculations and storage
 
-JavaScript and Electron with local JSON storage, atomic saves, revision checks, and recovery from a previous valid record. Amounts use integer cents; pricing and forecasts use exact decimal rational arithmetic. The renderer uses a restricted native message bridge for local file operations.
+Built with JavaScript and Electron. Amounts use integer cents; pricing and forecast calculations use exact decimal rational arithmetic.
 
-Quaymetric is separate from the SBC products and retains its own branding and license.
+Local JSON storage supports atomic saves, revision checks, and recovery from a previous valid record. A restricted native bridge handles file operations.
 
-## Verification and status
+## Current build
 
-**32 automated tests** passed again during the GitHub import on 3 November 2026, including comparison against **200 independent Python Decimal pricing cases**. Coverage includes calculations, year retention, invoice cutoffs, CSV round trips, backup/restore, revision checks, and native bridge validation with simulated dialogs.
+The source has 32 automated tests, including comparison against 200 independent Python Decimal pricing cases. Other checks cover invoice cutoffs, year retention, CSV round trips, backup/restore, and native bridge validation with simulated dialogs.
 
-The portable Windows executable is built. Native Windows launch and real file-dialog acceptance remain pending. Previous browser-preview checks do not establish Windows execution.
+The portable Windows executable is packaged. Native Windows launch and real file-dialog checks remain pending.
 
-The commercial source repository is private. Product and third-party licenses remain separate.
+Quaymetric is separate from the SBC products. Its commercial source repository is private.
 
-[Back to portfolio](../README.md)
+[Portfolio](../README.md)

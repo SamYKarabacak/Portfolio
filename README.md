@@ -1,43 +1,41 @@
-# Project portfolio · SamYKar / BravenDev
+# SamYKar / BravenDev — Projects
 
-Offline desktop applications, local AI tools, and independent games built with Python, JavaScript, and C++.
+Desktop software, local AI tools, and independent games built with Python, JavaScript, and C++.
 
 [GitHub profile](https://github.com/SamYKarabacak) · [Games on itch.io](https://samykar.itch.io) · [Starkey Bridge Consulting](https://starkeybridgeconsulting.com)
 
-## Windows desktop software
+## Desktop software
 
-| Project | Purpose | Version | Details |
-| --- | --- | --- | --- |
-| **SBC Parallel** | Compare current and proposed workflows, staffing, queues, and capacity. | 1.0.1 | [Project overview](projects/sbc-parallel.md) |
-| **SBC QuickQuote** | Prepare quotations with exact monetary calculations, PDF export, and local backups. | 1.0.0 | [Project overview](projects/sbc-quickquote.md) |
-| **Quaymetric** | Transactions, invoices, budgets, cash planning, forecasts, and pricing. | 1.0.0 | [Project overview](projects/quaymetric.md) |
-| **LedgerDesk** | Income and expense tracking with separate currency views and CSV export. | 1.1.0 | [Source and Windows release](https://github.com/SamYKarabacak/LedgerDesk) |
-
-Parallel, QuickQuote, and Quaymetric are commercial projects with private source repositories. Windows executables have been built; native Windows acceptance remains pending for these three builds. Their project pages distinguish automated verification from operating-system testing. Quaymetric is an independent personal project; Parallel and QuickQuote are published under Starkey Bridge Consulting LLC.
-
-## Local document research
-
-**[SourceDesk](https://github.com/SamYKarabacak/SourceDesk)** is a local document workspace for PDF, Markdown, and text. It combines keyword search, optional semantic retrieval, optional Ollama answers, source passages, saved research, and workspace backups. SourceDesk continues the earlier BraveTrace project.
-
-**Stack:** Python · FastAPI · SQLite · JavaScript · optional Ollama. See its repository for setup, limitations, and license.
-
-## Independent games
-
-| Game | Description | Availability |
+| Project | Purpose | Version |
 | --- | --- | --- |
-| **SLINGSHIFT** | Twelve-level orbital puzzle game with trajectory prediction and a correction burn. | [Play](https://samykar.itch.io/slingshift) · [C++ source](https://github.com/SamYKarabacak/SLINGSHIFT) |
-| **THE LAST MESSAGE** | A late-night conversation that branches into four endings. | [Play](https://samykar.itch.io/the-last-message) · [Source](https://github.com/SamYKarabacak/THE-LAST-MESSAGE) |
-| **PULZIX** | A timing game with Classic and Daily Challenge modes, achievements, and reactive sound. | [Store and demo](https://samykar.itch.io/pulzix) · Private commercial source |
-| **DON’T OPEN THE DOOR** | Psychological horror with environmental interactions and persistent branching story progress. | [Development overview](projects/dont-open-the-door.md) · Checkpoint 0.1.28 |
+| [**SBC Parallel**](projects/sbc-parallel.md) | Compare workflows, staffing, queues, and capacity before changing a process. | 1.0.1 |
+| [**SBC QuickQuote**](projects/sbc-quickquote.md) | Prepare quotations with precise totals, PDF export, and local backups. | 1.0.0 |
+| [**Quaymetric**](projects/quaymetric.md) | Manage transactions, invoices, budgets, cash plans, and pricing. | 1.0.0 |
+| [**LedgerDesk**](https://github.com/SamYKarabacak/LedgerDesk) | Track income and expenses, keep currencies separate, and export CSV records. | 1.1.0 |
 
-Games are credited to **BravenDev · SamYKar**. Licensing differs by project; see each repository or product license.
+Parallel and QuickQuote are SBC products. Quaymetric is an independent personal project. All three have private source repositories and packaged Windows builds; native Windows acceptance checks are still pending. LedgerDesk's public repository includes its source and Windows release.
 
-## AI reliability research
+## Document research
 
-**[Exact identifier extraction and source selection](projects/identifier-extraction-research.md)** — A controlled study using synthetic records, reproducible prompts, exact-match scoring, and archived model outputs. The manuscript remains in preparation. A current-model extension has been prepared; no new current-model results are claimed.
+**[SourceDesk](https://github.com/SamYKarabacak/SourceDesk)** is a local workspace for PDF, Markdown, and text documents. It combines keyword search, optional semantic search, source inspection, saved research, and workspace backups. Ollama can provide local answers with citations.
 
-## About this repository
+Python · FastAPI · SQLite · JavaScript. Previously named BraveTrace.
 
-This is a public project index and documentation showcase. Commercial application source, unreleased game source, customer files, and manuscript working files are kept in private repositories. Public-source links above point to the actual development repositories.
+## Games
 
-Project status reviewed **3 November 2026**. This index does not grant a software license or announce that pending builds have passed customer acceptance.
+| Game | About | Links |
+| --- | --- | --- |
+| **SLINGSHIFT** | An orbital puzzle game with twelve levels, trajectory prediction, and one correction burn per flight. | [Play](https://samykar.itch.io/slingshift) · [Source](https://github.com/SamYKarabacak/SLINGSHIFT) |
+| **THE LAST MESSAGE** | A mysterious conversation at 2:17 a.m., with four possible endings. | [Play](https://samykar.itch.io/the-last-message) · [Source](https://github.com/SamYKarabacak/THE-LAST-MESSAGE) |
+| **PULZIX** | A timing game with Classic and Daily Challenge modes, achievements, and reactive sound. | [Store and demo](https://samykar.itch.io/pulzix) |
+| **DON’T OPEN THE DOOR** | Psychological horror with environmental interactions and persistent story progress. In development at 0.1.28. | [Project notes](projects/dont-open-the-door.md) |
+
+Games are credited to **BravenDev / SamYKar**. PULZIX and DON’T OPEN THE DOOR have private source repositories.
+
+## Research
+
+**[Exact identifier extraction and source selection](projects/identifier-extraction-research.md)** examines how language models handle synthetic records with competing fields. The work includes frozen datasets, archived responses, and exact-match scoring. The manuscript is in preparation; the planned current-model extension has not yet produced results.
+
+Follow the individual project links for setup, platform coverage, and license information.
+
+Last updated: **3 November 2026**.

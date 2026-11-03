@@ -1,35 +1,29 @@
 # SBC Parallel
 
-**Compare two ways of getting work done.**
+Compare an existing business workflow with a proposed change under the same incoming workload. Parallel shows where queues form, how much work finishes, and what remains unfinished when task times or staffing change.
 
-SBC Parallel lets a business or operations consultant compare an existing workflow with a proposed change under the same incoming workload. It shows how staffing, task time, and demand affect queues, completed work, turnaround, and unfinished jobs.
+**1.0.1 · Windows x64 · Starkey Bridge Consulting LLC**
 
-**Checkpoint:** 1.0.1 · **Platform:** Windows x64 · **Publisher:** Starkey Bridge Consulting LLC.
+## Working with a process
 
-## Capabilities
+Start with quotations, customer inquiries, order fulfillment, client onboarding, or a custom process. Set up two to six steps, then adjust task time, staff, allocated hours, variation, or bypass rules for each version.
 
-- Build two-to-six-step processes, with separate current and proposed settings.
-- Set dedicated staff, allocated hours, task duration, variation, and optional bypass.
-- Start from quotation, inquiry, order fulfillment, onboarding, or custom examples.
-- Compare demand surges, staff absence, variable arrivals, and other stress conditions.
-- Inspect animated queues, mean and P90 turnaround, utilization, and unfinished-work age.
-- Compare twenty paired seeds; retain up to one hundred projects locally.
-- Export native PDF reports, CSV results, scenario files, and workspace backups.
+The comparison includes throughput, waiting time, mean and P90 turnaround, utilization, and unfinished-work age. Demand surges and staff absence help test a proposal under pressure. Twenty paired seeds show how the comparison varies across sampled workloads.
 
-The purchased version is designed to run offline without an account, subscription, activation server, or paid API.
+Projects stay on the computer. A local library holds up to one hundred projects, with undo/redo, scenario files, workspace backups, and PDF or CSV reports.
 
-## Engineering
+## Implementation
 
-JavaScript and Electron, with a calculation worker, seeded simulations, validated scenario files, atomic local persistence, and a restricted native file bridge. Reports retain assumptions and a model reference so a comparison can be reproduced.
+JavaScript and Electron, with a background calculation worker and atomic local saves. Simulations use reproducible seeds; exported reports include the inputs and model reference.
 
-The model uses sequential FIFO queues and dedicated staff pools. Outputs describe the supplied assumptions; they are not measured business savings or forecasts.
+The model uses sequential FIFO queues and dedicated staff pools. Results depend on the assumptions entered and should be read alongside unfinished work, rather than treated as measured savings.
 
-## Verification and status
+## Build status
 
-The source checkpoint passed **110 unit tests** again during the GitHub import on 3 November 2026. The source package also retains previous desktop, offline, export, and packaging verification records.
+The source has 110 unit tests covering the simulation, independent reference cases, file validation, reports, and persistence. Desktop, offline, and packaging checks are recorded with the source.
 
-Installer and portable Windows executables are built. Native Windows launch, installer, dialogs, and display-scaling acceptance remain pending. Linux execution is not evidence of Windows execution.
+Installer and portable Windows builds are packaged. Native Windows launch, installation, dialogs, and display-scaling checks remain pending. The application runs offline without an account, subscription, or hosted API.
 
-Source and build tooling are maintained privately. No open-source license is granted for application-specific code.
+Commercial source is private.
 
-[Back to portfolio](../README.md) · [Publisher](https://starkeybridgeconsulting.com)
+[Portfolio](../README.md) · [Publisher](https://starkeybridgeconsulting.com)

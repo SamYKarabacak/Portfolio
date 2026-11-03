@@ -1,30 +1,28 @@
 # DON’T OPEN THE DOOR
 
-An independent psychological horror game about the sounds outside an apartment and the decisions made inside it.
+A psychological horror game about the sounds outside an apartment and the decisions made inside it.
 
-**Development checkpoint:** 0.1.28 · *A Choice of Your Own*  
-**Studio:** BravenDev · **Creator:** SamYKar.
+**In development · 0.1.28 — A Choice of Your Own**  
+**BravenDev · SamYKar**
 
-## The game
+## Inside the apartment
 
-- Five scenes and four endings.
-- Environmental interactions with a peephole, chain, tape, lamp, photograph, and barricade.
-- A branching story with phone messages, calls, and consequences for earlier choices.
-- Persistent story and reading progress, with portable save backups and legacy-save compatibility.
-- Keyboard controls, reduced-motion support, audio settings, and responsive layouts.
+The story unfolds across five scenes and four endings. Inspect the peephole, chain, tape, lamp, photograph, and barricade. Phone messages, calls, and later events respond to earlier choices.
 
-The playable build is standalone HTML, CSS, and JavaScript with embedded artwork, fonts, and synthesized sound. It is designed to work offline.
+Story and reading progress save locally. Portable save codes support backups and older saves. Keyboard controls, reduced motion, audio settings, and responsive layouts are part of the browser build.
 
-## Current checkpoint
+The game uses standalone HTML, CSS, and JavaScript with embedded artwork, fonts, and synthesized sound. It works offline.
 
-Version 0.1.28 fixes double-clicks accidentally selecting a decision revealed underneath the pointer. A separate single click, tap, or keyboard activation still makes the choice.
+## Latest change
 
-The checkpoint preserves the existing story, endings, save format, artwork, and audio. It remains in development; no Steam acceptance or finished commercial release is claimed.
+Version 0.1.28 fixes double-clicks accidentally selecting a decision that appears beneath the pointer. A decision now needs a separate activation, while ordinary reading and single-click choices remain immediate.
 
-## Verification
+## Development checks
 
-**507 automated tests**, all four scripted five-scene ending routes, and asset/source checks passed again during the GitHub import on 3 November 2026. The original checkpoint also retains native-browser input evidence. The source, tests, assets, and continuation documentation are archived in a private repository.
+The source includes 507 automated tests, scripted routes through all four endings, asset checks, and recorded browser input tests.
 
-Physical touch devices, Safari, screen readers, subjective listening, and Windows/Steam release acceptance still require review. Automated routes do not replace independent player testing.
+Independent player feedback, physical touch devices, Safari, screen readers, and listening tests remain on the development checklist. Windows packaging and Steam release acceptance are also pending.
 
-[Back to portfolio](../README.md) · [Creator’s games](https://samykar.itch.io)
+The source, assets, and development notes are kept in a private repository.
+
+[Portfolio](../README.md) · [Games on itch.io](https://samykar.itch.io)
