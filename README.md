@@ -1,6 +1,6 @@
 # Sam (Yigit) — Projects
 
-Desktop software, local AI tools, and independent games built with Python, JavaScript, and C++.
+My desktop apps, local AI tools, games, and ongoing research. I mostly work with Python, JavaScript, and C++.
 
 [GitHub profile](https://github.com/SamYKarabacak) · [Games on itch.io](https://samykar.itch.io) · [Starkey Bridge Consulting](https://starkeybridgeconsulting.com)
 
@@ -13,13 +13,13 @@ Desktop software, local AI tools, and independent games built with Python, JavaS
 | [**Quaymetric**](projects/quaymetric.md) | Manage transactions, invoices, budgets, cash plans, and pricing. | 1.0.0 |
 | [**LedgerDesk**](https://github.com/SamYKarabacak/LedgerDesk) | Track income and expenses, keep currencies separate, and export CSV records. | 1.1.0 |
 
-Parallel and QuickQuote are SBC products. Quaymetric is an independent personal project. All three have private source repositories and packaged Windows builds; native Windows acceptance checks are still pending. LedgerDesk's public repository includes its source and Windows release.
+Parallel and QuickQuote are products I'm developing for Starkey Bridge Consulting. Quaymetric is a separate personal project. The source for all three is private. Their Windows packages are built, but final checks on Windows are still pending. LedgerDesk's source and Windows release are public.
 
 ## Document research
 
 **[SourceDesk](https://github.com/SamYKarabacak/SourceDesk)** is a local workspace for PDF, Markdown, and text documents. It combines keyword search, optional semantic search, source inspection, saved research, and workspace backups. Ollama can provide local answers with citations.
 
-Python · FastAPI · SQLite · JavaScript. Previously named BraveTrace.
+Python · FastAPI · SQLite · JavaScript.
 
 ## Games
 
@@ -30,12 +30,10 @@ Python · FastAPI · SQLite · JavaScript. Previously named BraveTrace.
 | **PULZIX** | A timing game with Classic and Daily Challenge modes, achievements, and reactive sound. | [Store and demo](https://samykar.itch.io/pulzix) |
 | **DON’T OPEN THE DOOR** | Psychological horror with environmental interactions and persistent story progress. In development at 0.1.28. | [Project notes](projects/dont-open-the-door.md) |
 
-Games are credited to **SamYKar**. PULZIX and DON’T OPEN THE DOOR have private source repositories.
+I use **SamYKar** for my game projects. The source for PULZIX and DON’T OPEN THE DOOR is private.
 
 ## Research
 
-**[Exact identifier extraction and source selection](projects/identifier-extraction-research.md)** examines how language models handle synthetic records with competing fields. The work includes frozen datasets, archived responses, and exact-match scoring. The manuscript is in preparation; the planned current-model extension has not yet produced results.
-
-Follow the individual project links for setup, platform coverage, and license information.
+I'm studying **[how language models select records and copy identifiers exactly](projects/identifier-extraction-research.md)**. The study uses synthetic data, archived responses, and exact-match scoring. The manuscript is still in preparation, and I haven't run the newer-model comparison yet.
 
 Last updated: **3 November 2026**.
