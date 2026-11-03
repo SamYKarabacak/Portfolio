@@ -1,4 +1,4 @@
-# SamYKar / BravenDev — Projects
+# Sam (Yigit) — Projects
 
 Desktop software, local AI tools, and independent games built with Python, JavaScript, and C++.
 
@@ -30,7 +30,7 @@ Python · FastAPI · SQLite · JavaScript. Previously named BraveTrace.
 | **PULZIX** | A timing game with Classic and Daily Challenge modes, achievements, and reactive sound. | [Store and demo](https://samykar.itch.io/pulzix) |
 | **DON’T OPEN THE DOOR** | Psychological horror with environmental interactions and persistent story progress. In development at 0.1.28. | [Project notes](projects/dont-open-the-door.md) |
 
-Games are credited to **BravenDev / SamYKar**. PULZIX and DON’T OPEN THE DOOR have private source repositories.
+Games are credited to **SamYKar**. PULZIX and DON’T OPEN THE DOOR have private source repositories.
 
 ## Research
 

@@ -3,7 +3,7 @@
 A psychological horror game about the sounds outside an apartment and the decisions made inside it.
 
 **In development · 0.1.28 — A Choice of Your Own**  
-**BravenDev · SamYKar**
+**SamYKar**
 
 ## Inside the apartment
 
